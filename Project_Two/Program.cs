@@ -1,3 +1,21 @@
+Skip to content
+ 
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ @avangan Sign out
+1
+0 0 CWEB2010-Spring2019/super-bowl-data-analytics-program-project-2-avangan
+ Code  Issues 0  Pull requests 0  Projects 0  Wiki  Insights
+super-bowl-data-analytics-program-project-2-avangan/Project_Two/Program.cs
+90fb573  just now
+@avangan avangan Update Program.cs
+@instructorc @avangan
+     
+49 lines (31 sloc)  1.24 KB
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -32,11 +50,19 @@ namespace SuperBowl
         {
             //Create list of objects
             List<SuperBowl> values = File.ReadAllLines(adjustedFilePath)
-                                             .Skip(1)
-                                             .Select(v => SuperBowl.FromCsv(v))
-                                             .ToList();
+                                    
+                                        
                      
             StreamWriter sw = new StreamWriter(textPath);
+
+            }
+
+            
+
+
+    }
+}
+
 
             }
 
