@@ -64,9 +64,9 @@ namespace SuperProject
             // loop thru the variable SuperBClassWinner and select our the object SuperBClass 
             foreach (SuperBClass x in SuperBClassWinners)
             {
-                string output = String.Format("    {0,-19} {1,-4} {2,-28} {3,-15} {4,-27} {5,-10}",
+                string output = String.Format("    {0,-19} {1,-4} {2,-28} {3,-15} {4,-27} {5,-17}",
                   x.WinTeam, x.Date.Year, x.WinQb,
-                    x.WinCoach, x.Spread);
+                    x.WinCoach, x.Mvp, x.Spread);
                 writeStatSheet.WriteLine(output);
 
 
@@ -250,6 +250,4 @@ namespace SuperProject
    
     }
 }
-
-
 
