@@ -33,7 +33,7 @@ namespace SuperBowl
             //Create list of objects
             List<SuperBowl> values = File.ReadAllLines(adjustedFilePath)
 
-              // Created new stream Writer       
+              // Created new stream Writer file       
             StreamWriter sw = new StreamWriter(textPath);
 
             }
